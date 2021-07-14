@@ -22,7 +22,7 @@ var commentSchema = new Schema({
     timestamps: true
 });
 
-var dishSchema = new Schema({
+const dishSchema = new Schema({
     name: {
         type: String,
         required: true,

@@ -10,7 +10,7 @@ var dishRouter = require('./routes/dishRouter');
 var promoRouter = require('./routes/promoRouter');
 var leaderRouter = require('./routes/leaderRouter');
 
-
+//     mongod --dbpath=data --bind_ip 127.0.0.1
 const mongoose = require('mongoose');
 const Dishes = require('./models/dishes');
 const url = 'mongodb://localhost:27017/conFusion';
